@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type='button' value='color_blue' onclick='color("blue")'>
+
+    <button type="button" onclick="alert(location)">get URL</button>
+
+    <button id="change_txt"  type="button" onclick="txt()">change text on button</button>
+
+
+<script>
+    function color(change) {
+        document.body.style.backgroundColor=change
+    }
+</script>
+<script>
+    function txt(){
+        document.getElementById("change_txt").innerHTML = 'new text'
+    }
+</script>
+
+</body>
+</html>
